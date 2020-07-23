@@ -104,3 +104,15 @@ casePlusBtn.addEventListener("click", function () {
   taxAmount();
   totalBill();
 });
+// ADDED EVEN HANDLER TO MOBILE AREA REMOVE
+const removeMobileArea = document.getElementById("mobileRemove");
+removeMobileArea.addEventListener("click", function () {
+  const mobileArea = (document.getElementById("mobileArea").style.display =
+    "none");
+});
+// ADDED EVEN HANDLER TO CASEIN AREA REMOVE
+const removeCaseArea = document.getElementById("caseRemove");
+removeCaseArea.addEventListener("click", function () {
+  const mobileArea = (document.getElementById("caseArea").style.display =
+    "none");
+});
